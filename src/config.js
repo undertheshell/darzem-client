@@ -1,8 +1,7 @@
-require("dotenv").config();
 
 // const dataBaseHost = "localhost";
 // const dataBasePort = "5000";
 
-const dataBaseAddress = process.env.SERVER_URL;
+const dataBaseAddress = "https://darzem-server.onrender.com";
 
 export { dataBaseAddress }
